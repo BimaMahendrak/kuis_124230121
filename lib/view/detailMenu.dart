@@ -81,7 +81,7 @@ class _DetailmenuState extends State<Detailmenu> {
       child: ElevatedButton(
         onPressed: () {
           setState(() {
-            String text = 'Berhasil menambah pesanan';
+            String text = 'Berhasil menambah pesanan ${widget.foodMenu.name}';
             Navigator.pop(
               context,
               MaterialPageRoute(
